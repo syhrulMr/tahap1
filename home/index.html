@@ -1,53 +1,259 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../home/assets/output.css" rel="stylesheet">
-</head>
-<body>
-    <section id="home" class="pt-24 pb-28 bg-black">
-        <div class="container">
-          <div class="flex flex-wrap">
-            <div class="w-full self-center px-4 lg:w-1/2">
-              <h1
-                class="text-base font-semibold text-red-600 lg:text-4xl md:text-xl"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../home/assets/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-semibold text-lg text-black block py-1"
+              ><img src="img/icon.png" width="40px" alt=""
+            /></a>
+          </div>
+          <div class="flex items-center px-2">
+            <button
+              id="burger"
+              name="burger"
+              type="button"
+              class="block absolute right-9 lg:hidden"
+            >
+              <span
+                class="garis transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span class="garis transition duration-300 ease-in-out"></span>
+              <span
+                class="garis transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-red-600 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="nav-ul block lg:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 group-hover:text-black flex"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 group-hover:text-black flex"
+                    >VM</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 group-hover:text-black flex"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 group-hover:text-black flex"
+                    >Beranda</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end -->
+
+    <!-- hero -->
+    <section id="home" class="hero pt-24 pb-28 bg-black">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1
+              class="text-base font-semibold text-red-600 lg:text-4xl md:text-xl"
+            >
+              HMIT
+              <span class="block font-bold text-white text-lg lg:text-2xl"
+                >HIMPUNAN MAHASISWA TEKNIK INFORMATIKA</span
               >
-                HMIT
-                <span class="block font-bold text-white text-lg lg:text-2xl"
-                  >HIMPUNAN MAHASISWA TEKNIK INFORMATIKA</span
-                >
-              </h1>
-              <h2 class="font-semibold text-white text-lg mb-5 lg:text-2xl">
-                FAKULTAS ILMU KOMPUTER
-              </h2>
-              <p class="font-medium text-white mb-10 leading-relaxed">
-                Himpunan Mahasiswa Teknik Informatika (HMIT) adalah organisasi
-                mahasiswa dari Universitas Ichsan Sidenreng Rappang dari Fakultas
-                Ilmu Komputer yang terdiri dari mahasiswa jurusan atau program
-                studi informatika. Tujuan utama HMIT adalah menjadi wadah bagi
-                mahasiswa untuk mengembangkan minat, bakat, dan keterampilan di
-                bidang informatika melalui berbagai kegiatan seperti Bakti Sosial,
-                Study Club, Pelatihan Administrasi, dan Latihan Kepemimpinan.
-              </p>
-              <a
-                href=""
-                class="text-base font-semibold text-white hover:bg-red-600 bg-black py-3 px-8 rounded-full hover:shadow-lg hover:opacity-90 transition duration-500 ease-in-out"
-                >ContacNya</a
-              >
-            </div>
-            <div class="w-full self-end px-4 lg:w-1/2">
-              <div class="relative mt-4 lg:mt-9 lg:-right-5">
-                <img
-                  src="assets/img/logo.png"
-                  alt=""
-                  class="max-w-full mx-auto"
-                  width="400"
-                />
-              </div>
+            </h1>
+            <h2 class="font-semibold text-white text-lg mb-5 lg:text-2xl">
+              FAKULTAS ILMU KOMPUTER
+            </h2>
+            <p class="font-medium text-white mb-10 leading-relaxed">
+              Himpunan Mahasiswa Teknik Informatika (HMIT) adalah organisasi
+              mahasiswa dari Universitas Ichsan Sidenreng Rappang dari Fakultas
+              Ilmu Komputer yang terdiri dari mahasiswa jurusan atau program
+              studi informatika. Tujuan utama HMIT adalah menjadi wadah bagi
+              mahasiswa untuk mengembangkan minat, bakat, dan keterampilan di
+              bidang informatika melalui berbagai kegiatan seperti Bakti Sosial,
+              Study Club, Pelatihan Administrasi, dan Latihan Kepemimpinan.
+            </p>
+            <a
+              href=""
+              class="text-base font-semibold text-white hover:bg-red-600 bg-black py-3 px-8 rounded-full hover:shadow-lg hover:opacity-90 transition duration-500 ease-in-out"
+              >ContacNya</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-4 lg:mt-9 lg:-right-5">
+              <img
+                src="img/logo.png"
+                alt=""
+                class="max-w-full mx-auto"
+                width="480px"
+              />
             </div>
           </div>
         </div>
-      </section>
-</body>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- vissi -->
+    <section id="vm" class=" visi pt-16 pb-32 bg-red-600">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold flex justify-center text-black text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              VISI
+            </h3>
+            <p class="font-medium text-base text-slate-800 lg:text-lg mb-10">
+              Terbinanya himpunan mahasiswa informatika sebagai organisasi yang
+              berjiwa kepemimpinan dalam rangka mewujudkan Mahasiswa TI yang
+              berintelektual, solidaritas, dan bermoral, berlandaskan nilai -
+              nilai Kemanusiaan.
+            </p>
+            <!-- icon somed -->
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold flex justify-center text-black text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              MISI
+            </h3>
+            <!-- <p class="font-medium text-base text-slate-500 lg:text-lg mb-10"> -->
+            <div class="text-slate-800">
+              <p>
+                1. Menyelenggarakan kegiatan yang mendukung untuk aktif dan
+                inovatif agar mampu menopang softskill dan hardskill HMTI.
+              </p>
+              <p>
+                2. Membangun himpunan yang kontributif dalam menampung seluruh
+                aspirasi mahasiswa.
+              </p>
+              <p>
+                3. Menumbuhkan nilai-nilai kemanusiaan melalui penanaman sikap
+                kepedulian mahasiswa TI terhadap permasalahan sosial.
+              </p>
+              <p>
+                4. Meningkatkan solidaritas antar mahasiswa TI dan mahasiswa
+                demi terwujudnya rasa kekeluargaan.
+              </p>
+              <p>
+                5. Menghasilkan produk teknologi informasi berkelanjutan yang
+                bermanfaat bagi masyarakat.
+              </p>
+            </div>
+
+            <!-- icon somed -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- depertamen -->
+    <section id="portofolio" class="pt-36 pb-16 bg-black">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto mb-16 text-center">
+            <h4 class="font-semibold text-3xl text-red-600 mb-2">HMIT</h4>
+            <h2
+              class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              DEVISI  
+            </h2>
+            <p class="font-medium text-slate-200 md:text-lg">
+              Himpunan Teknik Informatika bertujuan untuk meningkatkan kualitas
+              anggota himpunan, memperkuat solidaritas, serta memberikan
+              kontribusi positif kepada mahasiswa kampus dan lingkungan sekitar
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-11/12/12 xl:mx-auto"
+        >
+          <a href="./pengkaderan/pengkaderan.html" class="mb-12 p-4 md:w-1/2"
+            ><div>
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img src="assets/img/motor.jpeg" alt="" width="100%" />
+              </div>
+              <h3 class="font-semibold text-white text-xl mt-5 mb-3">
+                PENGKADERAN
+              </h3>
+              <p class="font-medium text-base text-slate-300">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Asperiores, harum.
+              </p>
+            </div></a
+          >
+          <a href="./kesek/kesek.html" class="mb-12 p-4 md:w-1/2"
+            ><div>
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img src="assets/img/motor.jpeg" alt="" width="100%" />
+              </div>
+              <h3 class="font-semibold text-white text-xl mt-5 mb-3">
+                KESEKTARIATAN
+              </h3>
+              <p class="font-medium text-base text-slate-300">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Asperiores, harum.
+              </p>
+            </div></a
+          >
+          <a href="./humas/humas.html" class="mb-12 p-4 md:w-1/2"
+            ><div>
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img src="assets/img/motor.jpeg" alt="" width="100%" />
+              </div>
+              <h3 class="font-semibold text-white text-xl mt-5 mb-3">HUMAS</h3>
+              <p class="font-medium text-base text-slate-300">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Asperiores, harum.
+              </p>
+            </div></a
+          >
+          <a href="./iptek/iptek.html" class="mb-12 p-4 md:w-1/2"
+            ><div>
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img src="assets/img/motor.jpeg" alt="" width="100%" />
+              </div>
+              <h3 class="font-semibold text-white text-xl mt-5 mb-3">IPTEK</h3>
+              <p class="font-medium text-base text-slate-300">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Asperiores, harum.
+              </p>
+            </div></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <script src="script.js"></script>
+  </body>
 </html>
