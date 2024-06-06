@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "go":"npx tailwindcss -i home/assets/input.css -o home/assets/output.css --watch"
+    "gash":"npx tailwindcss -i assets/input.css -o assets/output.css --watch"
   },
   "keywords": [],
   "author": "",

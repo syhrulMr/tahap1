@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../assets/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a
+              href="../home/index.html  "
+              class="font-semibold text-lg text-black block py-1"
+              ><img src="img/icon.png" width="40px" alt=""
+            /></a>
+          </div>
+          <div class="flex items-center px-2">
+            <button
+              id="burger"
+              name="burger"
+              type="button"
+              class="block absolute right-9 lg:hidden"
+            >
+              <span
+                class="garis transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span class="garis transition duration-300 ease-in-out"></span>
+              <span
+                class="garis transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-red-600 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="nav-ul block lg:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 group-hover:text-black flex"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 group-hover:text-black flex"
+                    >VM</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 group-hover:text-black flex"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 group-hover:text-black flex"
+                    >Beranda</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end -->
+
+    <!-- hero -->
+    <section class="pt-36 pb-32 bg-white  ">
+      <div class="container mx-auto p-6">
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <h1 class="text-2xl font-bold mb-4">
+            Staff Training Program of Industrial Engineering
+          </h1>
+          <p class="mb-4">
+            Staff Training Program of Industrial Engineering atau pelatihan
+            pengurus HMTI merupakan kegiatan yang dilaksanakan pada awal
+            kepengurusan HMTI dengan tujuan meningkatkan kualitas pengurus untuk
+            satu periode kedepan. <em>Training</em> pengurus HMTI dilaksanakan
+            pada Hari Minggu, 12 Maret 2023 di Ruang Seminar Umum Fakultas
+            Teknik UNS. <em>Training</em> pengurus tahun ini bertema
+            <em>self development</em> dan <em>time management</em> serta
+            dihadiri oleh seluruh pengurus HMTI periode 2023.
+          </p>
+          <p class="mb-4">
+            Kegiatan ini mengundang pembicara dari alumni Teknik Industri UNS
+            Angkatan 2018 yaitu Rizki Ananda Putra Nur Rohmat dan Annisa
+            Syahilatina yang juga pernah menjabat sebagai pengurus HMTI. Acara
+            dipimpin oleh MC yaitu Elia Nowe Siboro dan moderator M Fatur Rohman
+            lalu pemaparan materi dimulai dengan materi tentang
+            <em>self development</em> oleh Mas Rizki Ananda Putra dilanjutkan
+            materi tentang <em>time management</em> oleh Mbak Annisa
+            Syahilatina. Setelah pemaparan materi, acara dilanjutkan dengan sesi
+            <em>Forum Group Discussion</em>, dimana pengurus dibagi dalam
+            kelompok-kelompok dan diajak berdiskusi antar kelompok tentang studi
+            kasus keorganisasian.
+          </p>
+          <p class="mb-4">
+            Acara <em>training</em> pengurus dalam sebuah organisasi merupakan
+            sesuatu yang penting karena akan meningkatkan kualitas dari pengurus
+            dalam suatu organisasi yang dalam hal ini adalah pengembangan diri
+            serta cara mengatur waktu secara efektif dan efisien. Dengan
+            diadakannya <em>training</em> presidium dan kadiv HMTI periode 2023
+            diharapkan seluruh pengurus HMTI periode 2023 dapat menjalankan
+            tugas dan wewenang dengan baik serta menemukan jalan keluar dari
+            setiap tantangan dan rintangan yang akan dialami.
+          </p>
+        </div>
+
+        <div class="slides">
+          <div class="co">
+            <div class="slides-container">
+              <!-- Slides -->
+              <div class="slide" data-slide>
+                <img src="assets/img/motor.jpeg" alt="Image" />
+              </div>
+
+              <div class="slide" data-slide>
+                <img src="assets/img/motor.jpeg" alt="Image" />
+              </div>
+
+              <!-- Next and Previous Buttons -->
+              <button class="btn previous" data-button="previous">
+                <span class="fas fa-chevron-circle-left"><-</span>
+              </button>
+              <button class="btn next" data-button="next">
+                <span class="span fas fa-chevron-circle-right">-></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
